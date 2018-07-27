@@ -16,7 +16,7 @@ elif Num in ["04", "05", "06", "07", "08", "09", "10"]:
 	cam4_10 = PinholeCamera(1226.0, 370.0, 707.0912, 707.0912, 601.8873, 183.1104)
 else:
     print("Error.")
-	exit()
+    exit()
 
 # pose_path
 pose_path = '/home/user/Desktop/dataset/poses/' + Num + '.txt'
